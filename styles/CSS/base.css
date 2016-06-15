@@ -3,16 +3,17 @@
   height: 100px;
   background-color: #1d365d;
 }
-.logo {
+.menu .logo {
+  width: 171px;
+  height: 78px;
   margin-left: 375px;
-  margin-top: 18px;
-  display: inline-block;
+  padding-top: 18px;
 }
-.button {
+.menu .button {
+  display: inline;
   position: relative;
-  display: inline-block;
+  bottom: 28px;
   margin-left: 626px;
-  top: 17px;
   background-color: #417097;
   border: none;
   color: white;
@@ -21,4 +22,16 @@
   font-family: 'PTSans Narrow';
   font-size: 52px;
   line-height: 31px;
+}
+.menu .less {
+  margin-left: 36px;
+  margin-bottom: 10px;
+}
+.header {
+  width: 100%;
+  height: 700px;
+  background: url(../../img/hero.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
