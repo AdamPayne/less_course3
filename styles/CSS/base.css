@@ -3,3 +3,22 @@
   height: 100px;
   background-color: #1d365d;
 }
+.logo {
+  margin-left: 375px;
+  margin-top: 18px;
+  display: inline-block;
+}
+.button {
+  position: relative;
+  display: inline-block;
+  margin-left: 626px;
+  top: 17px;
+  background-color: #417097;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  padding: 10px 40px;
+  font-family: 'PTSans Narrow';
+  font-size: 52px;
+  line-height: 31px;
+}
