@@ -10,18 +10,18 @@
   padding-top: 18px;
 }
 .menu .button {
-  display: inline;
-  position: relative;
-  bottom: 28px;
-  margin-left: 626px;
   background-color: #417097;
   border: none;
   color: white;
   border-radius: 7px;
+  line-height: 31px;
+  display: inline;
+  position: relative;
+  bottom: 28px;
+  margin-left: 626px;
   padding: 10px 40px;
   font-family: 'PTSans Narrow';
   font-size: 52px;
-  line-height: 31px;
 }
 .menu .less {
   margin-left: 36px;
@@ -35,26 +35,26 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.course {
-  width: 1280px;
-  height: 350px;
-  margin: 0 auto;
-  padding-top: 50px;
-}
-.course_text {
+.course-text {
   margin: 0px;
-  display: inline-block;
+  float: left;
+  height: 350px;
   width: 50%;
+  overflow: hidden;
   line-height: 31px;
 }
 .course-image {
-  float: right;
+  display: block;
+  margin-left: 65%;
 }
 .lector {
-  width: 1280px;
+  width: 66%;
   height: 350px;
   margin: 0 auto;
+  padding-top: 10px;
   margin-top: 10px;
+}
+.border {
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
@@ -62,9 +62,35 @@
   float: left;
 }
 .lector-text {
-  margin: 0px;
-  display: inline-block;
-  line-height: 31px;
+  float: right;
   width: 66.6%;
+  height: 350px;
+  margin: 0px;
+  padding-top: 30px;
+  line-height: 31px;
+  overflow: hidden;
+}
+.awesome {
+  background-color: #417097;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  line-height: 31px;
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  padding: 0 20px;
+  background: -webkit-linear-gradient(#417097, #36556e);
+  background: -o-linear-gradient(#417097, #36556e);
+  background: linear-gradient(#417097, #36556e);
+}
+.footer {
+  margin: 0 auto;
+  width: 66%;
+}
+.left-logo {
+  float: left;
+}
+.right-logo {
   float: right;
 }
