@@ -1,32 +1,39 @@
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
 .menu {
 	width: 1920px;
 	height: 100px;
+	padding-top: 18px;
+	box-sizing: border-box;
 	background-color: @header;
 
 .logo{
 	width: 171px;
 	height: 78px;
 	margin-left: 375px;
-	padding-top: 18px;
 }
 
 .button{
 	
 	.button(7px, 31px);
-
-	display: inline;
-	position: relative;
-	bottom: 28px;
+	height: 66px;
+	width: 286px;
 	margin-left: 626px;
-	padding: 10px 40px;
+	box-sizing: border-box;
 	font-family: 'PTSans Narrow';
 	font-size: 52px;
 
 }
 	
 .less {
+	height: 66px;
 	margin-left: 36px;
-	margin-bottom: 10px;
 }
 
 }
@@ -41,10 +48,9 @@
 }
 
 .course-text{
-	margin: 0px;
-	float: left;
-	height: 350px;
 	width: 50%;
+	height: 350px;
+	margin: 0px;
 	overflow: hidden;
 	line-height: 31px;
 }
@@ -58,8 +64,8 @@
 	width: 66%;
 	height: 350px;
 	margin: 0 auto;
-	padding-top: 10px;
 	margin-top: 10px;
+	padding-top: 20px;
 }
 
 .border {
@@ -67,14 +73,9 @@
 	border-bottom: 1px solid black;	
 }
 
-.avatar{
-	float: left;
-}
-
 .lector-text{
-	float: right;
 	width: 66.6%;
-	height: 350px;
+	height: 300px;
 	margin: 0px;
 	padding-top: 30px;
 	line-height: 31px;
@@ -82,23 +83,23 @@
 }
 .awesome {
 	.button(7px, 31px);
-	display: inline-block;
+	.gradient(@btnColor, @btnColor2);
 	position: relative;
+	width: 50%;
+	height: 75px;
 	top: 0px;
 	padding: 0 20px;
-	background: -webkit-linear-gradient(@btnColor, @btnColor2);
-	background: -o-linear-gradient(@btnColor, @btnColor2);
-	background: linear-gradient(@btnColor, @btnColor2);
+	font-size: 40px;
 }
 
 .footer {
-	margin: 0 auto;
 	width: 66%;
-}
-.left-logo {
-	float: left;
+	height: 385px;
+	margin: 0 auto;
+	padding-top: 60px;
 }
 
-.right-logo {
-	float: right;
+.footer-logos {
+	width: 25%;
+	margin-top: 245px;
 }
