@@ -11,10 +11,14 @@
   box-sizing: border-box;
   background-color: #1d365d;
 }
+.menu .menu-container {
+  width: 66%;
+  height: 100%;
+  margin: 0 auto;
+}
 .menu .logo-container {
   width: 171px;
   height: 78px;
-  margin-left: 20%;
 }
 .menu .logo {
   width: 100%;
@@ -32,7 +36,7 @@
   line-height: 31px;
   height: 66px;
   width: 286px;
-  margin-left: 33%;
+  margin-left: 48%;
   box-sizing: border-box;
   font-family: 'PTSans Narrow';
   font-size: 2.5vw;
@@ -90,9 +94,9 @@
   color: white;
   border-radius: 7px;
   line-height: 31px;
-  background: -webkit-linear-gradient(#417097, #36556e);
-  background: -o-linear-gradient(#417097, #36556e);
-  background: linear-gradient(#417097, #36556e);
+  background: -webkit-linear-gradient(#36556e, #417097);
+  background: -o-linear-gradient(#36556e, #417097);
+  background: linear-gradient(#36556e, #417097);
   position: relative;
   width: 50%;
   height: 75px;
