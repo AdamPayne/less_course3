@@ -15,8 +15,6 @@
   width: 171px;
   height: 78px;
   margin-left: 20%;
-  margin-top: 0px;
-  margin-bottom: 0px;
 }
 .menu .logo {
   width: 100%;
@@ -37,7 +35,7 @@
   margin-left: 33%;
   box-sizing: border-box;
   font-family: 'PTSans Narrow';
-  font-size: 3vw;
+  font-size: 2.5vw;
 }
 .menu .less {
   height: 66px;
@@ -115,5 +113,8 @@
 @media (max-width: 1280px) {
   .avatar {
     width: 33%;
+  }
+  .menu .button {
+    font-size: 3.5vw;
   }
 }
